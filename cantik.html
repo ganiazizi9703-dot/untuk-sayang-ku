@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Ucapan Semangat Kerja</title>
+  <link rel="stylesheet" href="cantik sekali.txt" />
+</head>
+<body>
+  <main class="container">
+    <section class="card" aria-label="Ucapan Semangat Kerja">
+      <div class="media">
+        <img id="photo" src="nama.jpg" alt="Foto semangat kerja" />
+        <div class="photo-overlay">
+          <h1 class="title">Semangat Kerja!</h1>
+          <p class="subtitle">Semoga harimu produktif, penuh energi, dan sukses terus ✨</p>
+        </div>
+      </div>
+
+      <div class="controls">
+        <div class="song-info">
+          <div class="song-meta">
+            <strong id="song-title">Judul Lagu - Artis</strong>
+            <span id="song-duration">00:00</span>
+          </div>
+        </div>
+
+        <div class="buttons">
+          <button id="playBtn" class="btn">▶️ Play</button>
+          <button id="pauseBtn" class="btn secondary">⏸ Pause</button>
+          <button id="muteBtn" class="btn secondary">🔈 Mute</button>
+        </div>
+
+        <div class="progress-wrap" aria-hidden="false">
+          <input id="progress" type="range" min="0" max="100" value="0" />
+        </div>
+
+        <div class="message-area">
+          <textarea id="message" placeholder="Tulis pesan semangatmu di sini..." rows="3"></textarea>
+          <button id="shareBtn" class="btn accent">Kirim & Bagikan</button>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <small>Made with ❤️ • dari <code>ezoxxx</code> untuk <code>kholil</code></small>
+    </footer>
+  </main>
+
+  <!-- audio element - tidak terlihat tapi dikontrol lewat JS -->
+  <audio id="audio" preload="metadata">
+    <source src="assets/song.mp3" type="audio/mpeg" />
+    Browser Anda tidak mendukung audio element.
+  </audio>
+
+  <script src="uwu.js"></script>
+</body>
+</html>
